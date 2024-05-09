@@ -50,7 +50,7 @@ function Login() {
               type="text"
               id="usuario"
               name="usuario"
-              placeholder="Usuário"
+              placeholder="Usuario"
               className="border-2 border-slate-700 rounded p-2"
               value={usuarioLogin.usuario}
               onChange={(e: ChangeEvent<HTMLInputElement>) =>
